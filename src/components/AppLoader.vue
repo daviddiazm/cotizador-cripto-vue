@@ -3,12 +3,14 @@
 </script>
 
 <template>
-  <div class="loader"></div>
+  <div class="loader contenedor-resultado"></div>
 </template>
 
 <style scoped>
   /* HTML: <div class="loader"></div> */
 .loader {
+  /* width: 30%; */
+  margin: 10rem auto;
   height: 15px;
   width: 150px;
   --c:no-repeat repeating-linear-gradient(#0000 0 6px,#000 0 9px,#0000 0 15px);
